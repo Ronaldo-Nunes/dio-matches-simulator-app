@@ -4,4 +4,5 @@
     <string name="simular_partidas">Simular partidas</string>
     <string name="cd_home_team">Imagem do time mandante</string>
     <string name="imagem_do_time_visitante">Imagem do time visitante</string>
+    <string name="error_api">Erro ao tentar buscar os dados.</string>
 </resources>
