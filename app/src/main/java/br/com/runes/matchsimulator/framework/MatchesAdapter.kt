@@ -7,8 +7,18 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import br.com.runes.matchsimulator.databinding.MatchItemBinding
 import br.com.runes.matchsimulator.domain.Match
+import kotlin.random.Random
 
 class MatchesAdapter(private val clickListener: MatchClickListener) : ListAdapter<Match, MatchesAdapter.ViewHolder>(DiffCallback()) {
+
+    fun simulateMatches() {
+        val random = Random
+        currentList.onEachIndexed { index, match ->
+            match.homeTeam.score = random.nextInt(match.homeTeam.stars + 1)
+            match.awayTeam.score = random.nextInt(match.awayTeam.stars + 1)
+            notifyItemChanged(index)
+        }
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)

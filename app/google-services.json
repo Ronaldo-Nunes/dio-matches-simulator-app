@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592169960719",
+    "project_id": "dio-matches-simulator-app",
+    "storage_bucket": "dio-matches-simulator-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592169960719:android:298e2556b5ca9299fe2a7a",
+        "android_client_info": {
+          "package_name": "br.com.runes.matchsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592169960719-v434dpl9u30ubfv1tcoka3hppq2cdtai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKF9XObUCUfLiHq3PoR7oCVu0hcSBVr4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592169960719-v434dpl9u30ubfv1tcoka3hppq2cdtai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
